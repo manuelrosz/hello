@@ -1,0 +1,28 @@
+loyaltyResponse.getSOAPBody().getElementsByTagName("Respuesta").item(0).getChildNodes().item(2).getChildNodes().item(0).getTextContent()
+
+result = "ZPUNTOSGRP01"
+
+loyaltyResponse.getSOAPBody().getElementsByTagName("Grupo").getLength()
+
+result = 6
+
+loyaltyResponse.getSOAPBody().getElementsByTagName("Grupo").item(0).getChildNodes().item(0).getTextContent()
+
+result = "ZPUNTOSGRP01"
+
+loyaltyResponse.getSOAPBody().getElementsByTagName("Grupo").item(0).getChildNodes().item(1).getTextContent()
+
+result = "Puntos Grupo 01"
+
+loyaltyResponse.getSOAPBody().getElementsByTagName("Grupo").item(0).getChildNodes().item(2).getTextContent()
+
+result = "2020-10-01 10:30:00"
+
+loyaltyResponse.getSOAPBody().getElementsByTagName("Grupo").item(0).getChildNodes().item(3).getTextContent()
+
+result = "01"
+
+
+loyaltyResponse.getSOAPBody().getElementsByTagName("row").item(0).getChildNodes().item(0).getTextContent()
+
+result = "6"
